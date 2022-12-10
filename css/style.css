@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto Serif', serif;
+}
+
+#login_box .login_area input{
+    margin: 10px 0;
+}
+
+.login_area{
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.69);
+    border-radius: 10px;
+}
+
+#login_box h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 40px 0 30px 0;
+}
+
+#login_box .login_area h4{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* ===transiction area start === */
+
+#transection_area{
+    display: none;
+}
+#transection_area .item{
+    width: 60%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+#transection_area .diposit{
+background-color: slateblue;
+}
+
+#transection_area .withdraw{
+background-color: lightsalmon;
+margin: 50px auto 50px auto;
+}
+
+#transection_area .balance{
+    background-color: orange;
+}
+
+#transection_area h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+#transection_area h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+#transection_area .login_area{
+    width: 70%;
+}
+
+#transection_area h3{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+#transection_area input{
+    margin: 15px 0;
+}
+/* ===transiction area end === */

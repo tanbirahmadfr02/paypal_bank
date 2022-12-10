@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap" rel="stylesheet">
+
+    <title>Paypal Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ===login part start === -->
+        <div id="login_box">
+            <h1 class="text-center">Welcome to Paypal Bank</h1>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="login_area">
+                        <h4>Login</h4>
+                        <input type="email" class="form-control" placeholder="Enter your Email">
+                        <input type="password" class="form-control" placeholder="Enter your password">
+                        <button id="login" class="btn btn-success">Enter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===login part end === -->
+
+        <!-- ===transection part start === -->
+        <div id="transection_area">
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-end">
+                    <div class="diposit item">
+                        <h2>Deposit</h2>
+                    <h5>$ <span id="curentDeposit">00</span></h5>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="withdraw item">
+                        <h2>Withdraw</h2>
+                    <h5>$00</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="balance item">
+                        <h2>Balance</h2>
+                    <h5>$ <span id="curentBalance">100</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-end">
+                    <div class="login_area">
+                        <h3>Deposit</h3>
+                    <input id="depositAmount" type="text" class="form-control" placeholder="$ Amount you want to withdraw">
+                    <button id="addDeposit" class="btn btn-success">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="login_area">
+                        <h3>Withdraw</h3>
+                    <input id="withdrawAmount" type="text" class="form-control" placeholder="$ Amount you want to deposit">
+                    <button id="addWidhdraw" class="btn btn-success">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===transection part end === -->
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
